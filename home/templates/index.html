@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Episode</title>
+ <!--home 화면이요! 전체 지도가 들어가는 페이지입니다-->
+
+{% extends 'base.html'%}
+
 <body>
+    {% block contents %}
+  
+  <div class="index_img"> 
+    <img src="home.png" class = "home_image">
+    <!--image_tag = "home.png", :class => "home_image" -->
+  </div>
 
-  <footer>
-    <p>Copyright &copy; Ewha-Likelion 7th, 2019</p>
-</footer>
-
+    {% endblock%}
 </body>
-</html>

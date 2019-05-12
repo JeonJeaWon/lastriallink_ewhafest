@@ -20,4 +20,14 @@ import home.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home.views.index, name = 'index'),
+    path('home/first', home.views.first, name = 'first'),
+    path('home/second', home.views.second, name = 'second'),
+    path('home/third', home.views.third, name = 'third'),
+    path('home/forth', home.views.fourth, name = 'fourth'),
+    path('home/event_show', home.views.event_show, name = 'event_show'),
+    path('home/search', home.views.search, name = 'search'),
+    path('home/passs', home.views.passs, name = 'passs'),
+    path('home/episode', home.views.episode, name = 'episode'),
+    path('home/csvsave', home.views.csvsave, name = 'csvsave'),
+
 ]
